@@ -364,6 +364,10 @@ footer h4{
   background-color: #717171;
 }
 
+.rome-images-mobile-view {
+  display: none;
+}
+
 @media screen and (max-width: 900px) {
   header h1 {
     font-size: 50px;
@@ -404,6 +408,22 @@ footer h4{
  .first {
    margin-bottom: 40px;
  }
+ .slideshow-container {
+   display: none;
+ }
+ .slideshow-dots {
+   display: none;
+ }
+.rome-images-mobile-view {
+  display: block;
+}
+.rome-images-mobile-view img{
+width: 100%;
+}
+.rome-images-mobile-view figure {
+  margin-bottom: 40px;
+}
+
 }
 
 /* 100% Image Width on Smaller Screens */
