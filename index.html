@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ITALY</title>
+    <link rel="stylesheet" href="style.css" />
+     
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header>
+      <h1><span style="font-weight: 400">Visit</span> Italy</h1>
+    </header>
+    <!-- END HEADER -->
+
+    <!-- LITTLE ABOUT ITALY--------------------------- -->
+    <section class="italy-description">
+      <h2>little<span style="font-weight: 400"> about</span> Italy</h2>
+      <p>
+        <span class="first-letter">I</span>taly is a country consisting of a peninsula delimited by
+        the Alps and several islands surrounding it. Italy is located in the center of the
+        Mediterranean Sea, in Southern Europe, and is also often considered part of Western Europe.
+        A unitary parliamentary republic with Rome as its capital and largest city, the country
+        covers a total area of 301,340 km2 (116,350 sq mi) and shares land borders with France,
+        Switzerland, Austria, Slovenia, and the enclaved microstates of Vatican City and San Marino.
+        Italy has a territorial exclave in Switzerland (Campione) and a maritime exclave in Tunisian
+        waters (Lampedusa). With around 60 million inhabitants, Italy is the third-most populous
+        member state of the European Union, after Germany and France.
+      </p>
+    </section>
+    <!-- END ----- LITTLE ABOUT ITALY -->
+
+
+    <h2 class="amazing-places-heading">amazing <span style="font-weight: 100">places</span></h2>
+    <section class="amazing-places-container">
+      <!-- FIRST ARTICLE -->
+      <article class="amazing-places-article">
+        <div class="amazing-places-image-container" id="myImg">
+          <img src="images/Cinque-terre.jpg" alt="cinque terre in Italy" class="cinque-img"/>
+
+          
+        </div>
+        <div class="amazing-places-description first">
+          <h2>Cinque Terre</h2>
+          <p>
+            Cinque Terre is a coastal area within Liguria, in the northwest of Italy. It lies in the
+            west of La Spezia Province, and comprises five villages: Monterosso al Mare, Vernazza,
+            Corniglia, Manarola, and Riomaggiore. The coastline, the five villages, and the
+            surrounding hillsides are all part of the Cinque Terre National Park, a UNESCO World
+            Heritage Site. The Cinque Terre area is a popular tourist destination. Over the centuries,
+            people have built terraces on the rugged, steep landscape right up to the cliffs that
+            overlook the Ligurian Sea. Paths, trains, and boats connect the villages as cars can only
+            reach them with great difficulty from the outside via narrow and precarious mountain
+            roads.
+          </p>
+        </div>
+   
+
+        <!-- The Modal -->
+        <!-- A modal is a dialog box/popup window that is displayed on top of the current page -->
+        <div id="myModal" class="modal">
+          <span class="close">&times;</span>
+          <img class="modal-content" id="img01" />
+          <div id="caption"></div>
+        </div>
+      </article>
+      <!-- END OF FIRST ARTICLE -->
+
+      <!-- AMAZING PLACES SECOND ARTICLE ----------------------- -->
+      <article class="amazing-places-article">
+        <div class="amazing-places-image-container" id="myImg2">
+          <img src="images/venice.jpg" alt="Venice / Italy" class="venice-img"/>
+         
+        </div>
+<div class="amazing-places-description">
+  <h2>Venice</h2>
+  <p>
+    Venice is a city in northeastern Italy and the capital of the Veneto region. It is built
+    on a group of 118 small islands that are separated by canals and linked by over 400
+    bridges. The islands are in the shallow Venetian Lagoon, an enclosed bay lying between the
+    mouths of the Po and the Piave rivers (more exactly between the Brenta and the Sile). In
+    2020, 258,685 people resided in the Comune di Venezia, of whom around 55,000 live in the
+    historical city of Venice (centro storico). Together with Padua and Treviso, the city is
+    included in the Padua-Treviso-Venice Metropolitan Area (PATREVE), which is considered a
+    statistical metropolitan area, with a total population of 2.6 million.
+  </p>
+</div>
+        
+      </article>
+      <!-- END OF SECOND ARTICLE AMAZING PLACES -->
+    </section>
+    <!-- END OF AMAZING PLACES -->
+
+
+    <!-- VOLCANOLOGY --------------------------------------------------------------------------->
+    <section class="volcano-container">
+      <div class="volcano-description">
+        <h2>volcanology</h2>
+        <p>
+          The country is situated at the meeting point of the Eurasian Plate and the African Plate,
+          leading to considerable seismic and volcanic activity. There are 14 volcanoes in Italy,
+          four of which are active: Etna, Stromboli, Vulcano and Vesuvius. The last is the only
+          active volcano in mainland Europe and is most famous for the destruction of Pompeii and
+          Herculanum in the eruption in 79 AD. Several islands and hills have been created by
+          volcanic activity, and there is still a large active caldera, the Campi Flegrei north-west
+          of Naples.
+        </p>
+      </div>
+      <div class="volcano-row">
+        <figure class="volcano-img-container">
+          <img src="images/etna.jpg" alt="" class="img-volcano" />
+          <figcaption>Etna</figcaption>
+        </figure>
+        <figure class="volcano-img-container">
+          <img src="images/vesuvius.jpeg" alt="" class="img-volcano" />
+          <figcaption>Vesuvius</figcaption>
+        </figure>
+        <figure class="volcano-img-container">
+          <img src="images/stromboli.jpeg" alt="" class="img-volcano" />
+          <figcaption>Stromboli</figcaption>
+        </figure>
+      </div>
+    </section>
+    <!-- END OF VOLCANOLOGY--------------------------------------------------------------- -->
+
+    <section class="rome-container">
+      <h2>Rome</h2>
+      <p class="rome-undertext">The capital</p>
+      <!-- Carousel slideshow*********************************** -->
+      <!-- Slideshow container -->
+<div class="slideshow-container">
+
+  <!-- Full-width images with number and caption text -->
+  <div class="slides first-slide">
+  
+    <p class="slide-text">Trevi Fountain</p>
+  </div>
+
+  <div class="slides second-slide">
+    <p class="slide-text">Ponte Sant'Angelo</p>
+  </div>
+
+  <div class="slides third-slide">
+  
+    <p class="slide-text">Colosseum</p>
+  </div>
+
+  <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+<!-- The dots/circles -->
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+</div>
+    </section>
+
+    <!-- 
+<footer>
+  <h4>By Wiktoria</h4>
+</footer> -->
+<script src="script.js"></script>
+
+  </body>
+</html>
