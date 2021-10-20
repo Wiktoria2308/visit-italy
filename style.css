@@ -395,7 +395,6 @@ padding: 2%;
 }
 
 .row {
-  max-width: 90%;
   margin: auto;
   display: -ms-flexbox; /* IE 10 */
   display: flex;
