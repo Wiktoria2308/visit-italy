@@ -6,7 +6,6 @@
    var img2 = document.getElementById('myImg2');
    var modalImg = document.getElementById('img01');
    var captionText = document.getElementById('caption');
-   var src = 'images/medium.jpg';
    img.onclick = function () {
      modal.style.display = 'block';
      modalImg.src = 'images/Cinque-terre.jpg';
@@ -18,11 +17,8 @@
      captionText.innerHTML = 'Venice / Italy';
    };
 
-   // Get the <span> element that closes the modal
-   var span = document.getElementsByClassName('close')[0];
-
-   // When the user clicks on <span> (x), close the modal
-   span.onclick = function () {
+  
+   modal.onclick = function () {
      modal.style.display = 'none';
    };
 
@@ -53,3 +49,24 @@
      slides[slideIndex-1].style.display = "block";  
      dots[slideIndex-1].className += " active";
    }
+
+
+let modal2 = document.getElementById("myModal2");
+let modalImg2 = document.getElementById("modal_img2");
+var captionText2 = document.getElementById('caption2');
+  
+document.querySelectorAll(".vatican-image").forEach((item) => {
+  item.addEventListener("click", (event) => {
+    modal2.style.display = "block";
+    const image = item.src;
+    const imageAlt = item.alt;
+    captionText2.innerHTML = imageAlt;
+    modalImg2.src = image;
+
+  });
+});
+
+
+modal2.onclick = function() { 
+  modal2.style.display = "none";
+}
