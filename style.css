@@ -210,6 +210,7 @@ header h1 {
 }
 .img-volcano {
   width: 100%;
+  cursor: pointer;
 }
 
 .volcano-row {
@@ -235,20 +236,6 @@ header h1 {
 
 /* END OF VOLCANO************** */
 
-/* 
-footer {
-
-  text-align: center;
-  background-color: #91c9a6;
-  
-}
-
-footer h4{
-  padding-top: 20px;
-  padding-bottom: 20px;
-  text-decoration: underline;
-  margin: 0;
-} */
 
 /* ROME ******************************* */
 .rome-container {
@@ -301,7 +288,15 @@ footer h4{
 .third-slide {
   background-image: url('images/Colosseum.jpg');
 }
-
+.fourth-slide {
+  background-image: url('images/Rome.jpg');
+}
+.fifth-slide {
+  background-image: url('images/CastelSantangelo.jpg');
+}
+.sixth-slide {
+  background-image: url('images/Fori_Imperiali.jpg');
+}
 /* Next & previous buttons */
 .prev,
 .next {
@@ -351,6 +346,7 @@ footer h4{
 .dot:hover {
   background-color: #717171;
 }
+/* END OF SLIDESHOW ROME ************************** */
 
 
 .rome-images-mobile-view {
@@ -421,6 +417,22 @@ padding: 2%;
   cursor: pointer;
 }
 
+
+
+/* FOOTER************************* */
+
+footer {
+  text-align: center;
+  background-color: #f4f7f6;
+}
+
+footer h4{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin: 0;
+  letter-spacing: 1px;
+  font-weight: 300;
+}
 
 /* MEDIA QUERIES*************************** */
 
